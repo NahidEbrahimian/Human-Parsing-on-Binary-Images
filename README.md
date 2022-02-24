@@ -6,7 +6,7 @@
 - [x] dataset_and_train.ipynb
 - [x] simple_extractor.py(inference)
 - [x] requirements.txt
-
+- [ ] evaluate.py
 #
 
 ### Dataset
