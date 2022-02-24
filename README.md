@@ -1,5 +1,7 @@
 # Self-Correction-Human-Parsing-on-Binary-Images
 
+![download](https://user-images.githubusercontent.com/82975802/155522387-5c95d191-84b7-4f6d-8ee4-a64a9c4be78f.png)
+
 
 - [x] train.py
 - [x] dataset.ipynb
