@@ -7,6 +7,7 @@
 - [x] simple_extractor.py(inference)
 - [x] requirements.txt
 - [ ] evaluate.py
+
 #
 
 ### Dataset
@@ -19,6 +20,7 @@ We used real dataset: 20 human participants (10M/10F) with 1K labeled real press
 
 For prepairing binary images dataset, you can clone this repositiry and run `dataset.ipynb` file.
 
+#
 
 ### Instalation
 
@@ -54,6 +56,8 @@ There are two solutions for training:
 %cd ./Self-Correction-Human-Parsing-on-Binary-Images
 !python train.py --data-dir ./dataset/dataset --num-classes 7 --batch-size 3 --imagenet-pretrain ./pretrain_model/resnet101-imagenet.pth
 ```
+
+#
 
 ### Inference
 
