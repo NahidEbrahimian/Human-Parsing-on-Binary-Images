@@ -1,3 +1,4 @@
 opencv-python==4.4.0.46
-pickle
+pickle5
 pandas
+ninja
