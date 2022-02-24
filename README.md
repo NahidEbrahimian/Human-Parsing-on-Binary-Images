@@ -52,7 +52,7 @@ There are two solutions for training:
 
 ```
 %cd ./Self-Correction-Human-Parsing-on-Binary-Images
-!python train.py --data-dir ./dataset/dataset --num-classes 7 --batch-size 3 --imagenet-pretrain./pretrain_model/resnet101-imagenet.pth
+!python train.py --data-dir ./dataset/dataset --num-classes 7 --batch-size 3 --imagenet-pretrain ./pretrain_model/resnet101-imagenet.pth
 ```
 
 ### Inference
