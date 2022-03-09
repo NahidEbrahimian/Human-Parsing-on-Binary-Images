@@ -1,7 +1,12 @@
 # Self-Correction-Human-Parsing-on-Binary-Images
 
-![download](https://user-images.githubusercontent.com/82975802/155522387-5c95d191-84b7-4f6d-8ee4-a64a9c4be78f.png)
 
+
+|Original Images![original](https://user-images.githubusercontent.com/82975802/157465562-83906309-78f0-4390-a1b2-0d3e9a0321aa.jpg)|Contrast Enhancement![enhancment](https://user-images.githubusercontent.com/82975802/157465807-fda59e46-1c33-4e83-baf8-6a3499a8384e.jpg)|
+| ------------- | ------------- |
+
+|Output Pascal Model![pascal model](https://user-images.githubusercontent.com/82975802/157465918-2537f386-057c-4bc8-8cc5-0e1aeb5d5d44.png)|Binary Image-Input Model![input images](https://user-images.githubusercontent.com/82975802/157465975-637b2d44-27be-488b-9337-60d50f266539.jpg)|Inference Result![model inference](https://user-images.githubusercontent.com/82975802/157469098-9c593853-1104-42ce-a4ce-3315482fa9ee.png)|
+| ------------- | ------------- | ------------- |
 
 - [x] train.py
 - [x] dataset.ipynb
