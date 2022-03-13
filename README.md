@@ -1,7 +1,6 @@
 # Self-Correction-Human-Parsing-on-Binary-Images
 
 
-
 |Original Images![original](https://user-images.githubusercontent.com/82975802/157465562-83906309-78f0-4390-a1b2-0d3e9a0321aa.jpg)|Contrast Enhancement![enhancment](https://user-images.githubusercontent.com/82975802/157465807-fda59e46-1c33-4e83-baf8-6a3499a8384e.jpg)|
 | ------------- | ------------- |
 
@@ -23,7 +22,23 @@ Dataset name: bodies-at-rest
 
 Github repository: https://github.com/Healthcare-Robotics/bodies-at-rest
 
-We used real dataset: 20 human participants (10M/10F) with 1K labeled real pressure images.
+We used real dataset of bodies-at-rest dataset that contains 20 human participants (10M/10F) with 1K labeled real pressure images.
+
+- prepairing binary images dataset:
+
+For preparing dataset, we used pascal pretrained model that implemented for RGB images. The Pascal Person Part has 7 labels, including 'Background', 'Head', 'Torso', 'Upper Arms', 'Lower Arms', 'Upper Legs', 'Lower Legs'.
+
+The steps for preparing the database are as follows
+
+1- Extraction of image field of dataset pickle file 
+
+2- Improve image contrast
+
+3- Create segmented images using pascal model
+
+4- Convert segmented images using pascal model to binary images
+
+5- Creating labels of binary images that contains 7 classes
 
 For prepairing binary images dataset, you can clone this repositiry and run `dataset.ipynb` file.
 
@@ -34,10 +49,10 @@ For prepairing binary images dataset, you can clone this repositiry and run `dat
 1- Clone this repository using the following command:
 
 ```
-https://github.com/NahidEbrahimian/Self-Correction-Human-Parsing-on-Binary-Images
+https://github.com/NahidEbrahimian/Human-Parsing-on-Binary-Images
 ```
 
-2- In ```./Self-Correction-Human-Parsing-on-Binary-Images``` directory, run the following command to install requirements:
+2- In ```./Human-Parsing-on-Binary-Images``` directory, run the following command to install requirements:
 
 ```
 pip install -r requirements.txt
@@ -50,7 +65,7 @@ pip install -r requirements.txt
 1- Clone this repository using the following command:
 
 ```
-https://github.com/NahidEbrahimian/Self-Correction-Human-Parsing-on-Binary-Images
+https://github.com/NahidEbrahimian/Human-Parsing-on-Binary-Images
 ```
 
 There are two solutions for training:
@@ -60,7 +75,7 @@ There are two solutions for training:
 2- Afther prepairing dataset, run the following command:
 
 ```
-%cd ./Self-Correction-Human-Parsing-on-Binary-Images
+%cd ./Human-Parsing-on-Binary-Images
 !python train.py --data-dir ./dataset/dataset --num-classes 7 --batch-size 3 --imagenet-pretrain ./pretrain_model/resnet101-imagenet.pth
 ```
 
