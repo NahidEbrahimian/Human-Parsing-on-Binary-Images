@@ -42,6 +42,9 @@ The steps for preparing the database are as follows
 
 For prepairing binary images dataset, you can clone this repositiry and run `dataset.ipynb` file.
 
+|step1 ![16](https://user-images.githubusercontent.com/82975802/158050748-421ab337-8498-4e90-bc96-aba5497ce9a6.jpg)|step2![16 (1)](https://user-images.githubusercontent.com/82975802/158050752-4b7358c3-ec59-431a-a1b9-ae5bed3f1dce.jpg)|step3![16 (1)](https://user-images.githubusercontent.com/82975802/158051013-db7548ff-9239-4b5b-b8af-af8863543ec8.png)|step4![16 (2)](https://user-images.githubusercontent.com/82975802/158051025-db2f45a8-3ab3-41d0-88ea-00920e278273.jpg)|step5![16](https://user-images.githubusercontent.com/82975802/158051028-d6fb91cd-5293-47b9-922b-3cee0420f8ad.png)|
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+
 #
 
 ### Instalation
